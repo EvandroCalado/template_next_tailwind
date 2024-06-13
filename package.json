@@ -14,8 +14,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "pnpm run lint -- --fix",
-      "pnpm run test:lint"
+      "pnpm lint -- --fix",
+      "pnpm test:lint"
     ]
   },
   "dependencies": {
