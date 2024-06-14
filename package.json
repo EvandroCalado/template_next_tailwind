@@ -14,10 +14,15 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
-      "pnpm lint --fix",
-      "pnpm test:lint"
+      "npm run lint --fix",
+      "npm run test:lint"
     ]
   },
   "dependencies": {
