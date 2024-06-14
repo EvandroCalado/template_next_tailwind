@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Main > should render a snapshot 1`] = `
+<div>
+  <h1>
+    Main
+  </h1>
+</div>
+`;
+
+exports[`Main > should render correctly 1`] = `
+<div>
+  <h1>
+    Main
+  </h1>
+</div>
+`;
