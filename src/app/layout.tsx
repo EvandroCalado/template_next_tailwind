@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Template Next Tailwind',
   description: 'Template next with tailwind',
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 
 export default function RootLayout({

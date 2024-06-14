@@ -5,8 +5,11 @@ describe('Main', () => {
   it('should render correctly', () => {
     render(<Main />);
 
-    const main = screen.getByRole('heading', { name: /Main/i });
+    const main = screen.getByRole('heading', { name: /template next/i });
+    const img = screen.getByRole('img', { name: /desenvolvedor/i });
+
     expect(main).toBeInTheDocument();
+    expect(img).toBeInTheDocument();
   });
 
   it('should render a snapshot', () => {
