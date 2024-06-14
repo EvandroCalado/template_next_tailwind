@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY package*.json ./
 COPY .husky ./.husky
-COPY .lintstagedrc ./.lintstagedrc
 COPY .eslintrc.json ./.eslintrc.json
 COPY .prettierrc.json ./.prettierrc.json
 
