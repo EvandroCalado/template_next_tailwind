@@ -10,14 +10,10 @@
     "test:lint": "vitest --run --passWithNoTests --bail",
     "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",
+    "lint-staged": "lint-staged",
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*": [
