@@ -1,0 +1,130 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Main > should render a snapshot 1`] = `
+<main
+  class="flex h-screen w-full flex-col items-center justify-center gap-4 bg-zinc-800 px-4 md:flex-row lg:gap-20"
+>
+  <div
+    class="flex flex-col items-center justify-center space-y-4 md:space-y-8"
+  >
+    <h1
+      class="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl"
+    >
+      template next
+    </h1>
+    <img
+      alt="desenvolvedor em frente a um computador"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="400"
+      src="./logo.svg"
+      style="color: transparent;"
+      width="400"
+    />
+  </div>
+  <div
+    class="flex flex-col items-center justify-center space-y-4 md:space-y-8"
+  >
+    <h4
+      class="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl"
+    >
+      tecnologias
+    </h4>
+    <ul
+      class="text-sm text-zinc-100 md:space-y-2 md:text-base"
+    >
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          🐳 Docker: 
+        </span>
+         
+        Plataforma para desenvolvimento, envio e execução de aplicações em contêineres.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          🚀 Next.js:
+        </span>
+         
+        Framework React para desenvolvimento de aplicações web.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          ⚙️ TypeScript:
+        </span>
+         
+        Superset do JavaScript que adiciona tipagem estática ao código.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          💄 Tailwind CSS:
+        </span>
+         
+        Framework de CSS utilitário para estilização rápida e consistente.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          📖 Storybook:
+        </span>
+         
+        Ferramenta para desenvolvimento e documentação de componentes de interface.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          🧪 Vitest:
+        </span>
+         
+        Framework de testes rápidos para projetos modernos de frontend.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          🔧 Husky:
+        </span>
+         
+        Ferramenta para adicionar ganchos de Git facilmente.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          🛠️ Lint-Staged:
+        </span>
+         
+        Executa linters em arquivos modificados no repositório.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          📝 ESLint:
+        </span>
+         
+        Ferramenta de linting para identificar e corrigir problemas no código JavaScript.
+      </li>
+      <li>
+        <span
+          class="font-bold text-emerald-300"
+        >
+          📑 Prettier:
+        </span>
+         
+        Ferramenta de formatação de código.
+      </li>
+    </ul>
+  </div>
+</main>
+`;

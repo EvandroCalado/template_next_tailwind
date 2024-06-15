@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { Main, MainProps } from '.';
+import { Main, MainProps } from './Main';
 
 export default {
   title: 'Components/Main',
