@@ -1,12 +1,12 @@
 FROM node:20-alpine
 
-WORKDIR /app
+WORKDIR /workspace
 
-COPY package*.json ./
+COPY package*.json /workspace/
 
 RUN npm install
 
-COPY . .
+COPY . /workspace/
 
 EXPOSE 3000
 
