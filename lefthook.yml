@@ -2,7 +2,7 @@ pre-commit:
   parallel: true
   commands:
     lint:
-      run: npm run lint --fix
+      run: npm run lint -- --fix
     test:
       run: npm run test:pre
 
