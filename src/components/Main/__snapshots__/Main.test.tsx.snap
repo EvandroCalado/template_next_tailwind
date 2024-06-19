@@ -2,13 +2,13 @@
 
 exports[`Main > should render a snapshot 1`] = `
 <main
-  class="flex h-screen w-full flex-col items-center justify-center gap-4 bg-zinc-800 px-4 md:flex-row lg:gap-20"
+  class="flex h-screen w-full flex-col items-center justify-center gap-4 bg-zinc-100 px-4 md:flex-row lg:gap-20 dark:bg-zinc-800"
 >
   <div
     class="flex flex-col items-center justify-center space-y-4 md:space-y-8"
   >
     <h1
-      class="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl"
+      class="text-xl font-bold capitalize text-zinc-800 md:text-4xl lg:text-6xl dark:text-zinc-100"
     >
       template next
     </h1>
@@ -27,12 +27,12 @@ exports[`Main > should render a snapshot 1`] = `
     class="flex flex-col items-center justify-center space-y-4 md:space-y-8"
   >
     <h4
-      class="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl"
+      class="text-xl font-bold capitalize text-zinc-800 md:text-4xl lg:text-6xl dark:text-zinc-100"
     >
       tecnologias
     </h4>
     <ul
-      class="text-sm text-zinc-100 md:space-y-2 md:text-base"
+      class="text-sm text-zinc-800 md:space-y-2 md:text-base dark:text-zinc-100"
     >
       <li>
         <span

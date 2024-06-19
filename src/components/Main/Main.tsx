@@ -7,9 +7,9 @@ export interface MainProps {
 
 export const Main: FC<MainProps> = ({ title = 'template next' }) => {
   return (
-    <main className="flex h-screen w-full flex-col items-center justify-center gap-4 bg-zinc-800 px-4 md:flex-row lg:gap-20">
+    <main className="flex h-screen w-full flex-col items-center justify-center gap-4 bg-zinc-100 px-4 md:flex-row lg:gap-20 dark:bg-zinc-800">
       <div className="flex flex-col items-center justify-center space-y-4 md:space-y-8">
-        <h1 className="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl">
+        <h1 className="text-xl font-bold capitalize text-zinc-800 md:text-4xl lg:text-6xl dark:text-zinc-100">
           {title}
         </h1>
 
@@ -23,11 +23,11 @@ export const Main: FC<MainProps> = ({ title = 'template next' }) => {
       </div>
 
       <div className="flex flex-col items-center justify-center space-y-4 md:space-y-8">
-        <h4 className="text-xl font-bold capitalize text-zinc-100 md:text-4xl lg:text-6xl">
+        <h4 className="text-xl font-bold capitalize text-zinc-800 md:text-4xl lg:text-6xl dark:text-zinc-100">
           tecnologias
         </h4>
 
-        <ul className="text-sm text-zinc-100 md:space-y-2 md:text-base">
+        <ul className="text-sm text-zinc-800 md:space-y-2 md:text-base dark:text-zinc-100">
           <li>
             <span className="font-bold text-emerald-300">🐳 Docker: </span>{' '}
             Plataforma para desenvolvimento, envio e execução de aplicações em
