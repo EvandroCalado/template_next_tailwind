@@ -7,19 +7,12 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest",
-    "test:lint": "vitest --run --passWithNoTests --bail",
     "test:ui": "vitest --ui",
+    "test:pre": "vitest --run --passWithNoTests --no-coverage",
     "lint": "eslint src --max-warnings=0",
-    "lint-staged": "lint-staged",
-    "prepare": "husky",
+    "prepare": "lefthook install",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "npm run lint --fix",
-      "npm run test:lint"
-    ]
   },
   "dependencies": {
     "next": "14.2.4",
@@ -54,9 +47,8 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
-    "husky": "^9.0.11",
     "jsdom": "^24.1.0",
-    "lint-staged": "^15.2.7",
+    "lefthook": "^1.6.16",
     "postcss": "^8",
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.4",
