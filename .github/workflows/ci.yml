@@ -22,10 +22,10 @@ jobs:
         run: npm install
 
       - name: Linting
-        run: npm run lint
+        run: npm run lint -- --fix
 
       - name: Testing
-        run: npm run test:lint
+        run: npm run test:pre
 
       - name: Building
         run: npm run build
