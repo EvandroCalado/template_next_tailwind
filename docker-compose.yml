@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: template_next
     ports:
       - '3000:3000'
     volumes:

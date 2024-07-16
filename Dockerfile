@@ -17,11 +17,14 @@ WORKDIR /workspace
 # Copie os arquivos de pacotes para o contêiner
 COPY package*.json ./
 
+# Instale as dependências do projeto, incluindo Husky
+RUN npm install
+
+# Configure o Husky
+RUN npm run prepare
+
 # Copie o restante dos arquivos do projeto
 COPY . .
-
-# Instale o Lefthook localmente no projeto
-RUN npm install lefthook
 
 # Exponha a porta 3000
 EXPOSE 3000
